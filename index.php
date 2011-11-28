@@ -15,6 +15,7 @@
   	foreach($jsonobject->deals as $deals){
   		$formatDeal = formatDeal($deals);
   		//$insertDeals = insertDeals($formatDeal,$createTable);
+  		
   		$insertDeals = TRUE;
   		if ($insertDeals==TRUE) {
   			echo "***********  Inserted Deal is: ************ <br />";

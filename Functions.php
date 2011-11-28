@@ -100,6 +100,7 @@
   	return $rs;
   }
   
+  
   function insertDeals($formatDeal,$createTable) {
   	$tablename="groupondeals";
   	$translateDeal = $formatDeal;
